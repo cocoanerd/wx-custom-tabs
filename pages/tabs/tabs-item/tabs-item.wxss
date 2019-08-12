@@ -1,0 +1,85 @@
+/* pages/tabs/tabs-item/tabs-item.wxss */
+.container {
+  border-bottom: 100%;
+  border-top: 1rpx solid #E5E5E5;
+  background-color: #fff;
+  padding-top: 22rpx;
+  padding-bottom: 20rpx;
+}
+
+.item-view {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-left {
+  flex: 0.6;
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-left image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 26rpx;
+  margin-bottom: 25rpx;
+}
+
+.item-content {
+  flex: 1;
+  height: 100%;
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.item-number {
+  padding: 10rpx 0;
+  font-size: 28rpx;
+  color: #131A32;
+}
+
+.item-time {
+  padding: 10rpx 0;
+  color: #A3A3A3;
+  font-size: 24rpx;
+}
+
+.item-right {
+  flex: 0.4;
+  margin-right: 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+
+.item-amount {
+  padding: 10rpx 0;
+  font-size: 36rpx;
+  color: #131A32;
+  font-family: 'PingFangSC-Semibold',
+}
+
+.item-status {
+  padding: 10rpx 0;
+  color: #FF8A00;
+  font-size: 24rpx;
+}
+
+.no-more-data {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #A3A3A3;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 100rpx;
+}

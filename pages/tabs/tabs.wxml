@@ -1,0 +1,13 @@
+<!--pages/tabs/tabs.wxml-->
+<custom-tabs class='tabs' titleList="{{tabsType}}" bind:changeCurrent="swichNav" currentTab="{{currentType}}"/>
+<swiper class="swiper-container" current="{{currentType}}" bindchange="bindChange">
+  <swiper-item>
+    <tabs-item id = "page0" status = '1'/>
+  </swiper-item>
+  <swiper-item>
+    <tabs-item id = "page1" status = '2'/>
+  </swiper-item>
+  <swiper-item>
+    <tabs-item id = "page2" status = '3'/>
+  </swiper-item>
+</swiper>

@@ -1,0 +1,26 @@
+/* components/custom-tabs.wxss */
+.scroll-view-x{
+  background-color: #fff;
+  white-space: nowrap;
+  position:fixed;
+  z-index:10;
+  top:0;
+
+}
+.scroll-view-x .scroll-view-item{
+  display:inline-block;
+  line-height: 79rpx;
+  cursor: pointer;
+  text-align: center;
+  padding-bottom: 8rpx;
+}
+
+.scroll-view-item view {
+  font-size: 28rpx;   
+}
+.on {
+  display: inline-block;
+  border-bottom: 2px solid #4884EE;
+  border-radius: 2rpx;
+  color: #4884EE;
+}

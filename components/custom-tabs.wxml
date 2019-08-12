@@ -1,0 +1,11 @@
+<!--components/custom-tabs.wxml-->
+<!-- 标题列表-->
+<scroll-view scroll-x="true" class="scroll-view-x" scroll-with-animation="true">
+  <view class="scroll-view-item" wx:for="{{titleList}}" wx:key="*this" style="width:{{100/titleList.length}}%;">
+    <view class="{{currentTab==(index) ? 'on' : ''}}" bindtap="_swichNav" data-current="{{index}}">{{item.name}}</view>
+  </view>
+</scroll-view>
+<!--内容列表-->
+<slot>
+</slot>
+

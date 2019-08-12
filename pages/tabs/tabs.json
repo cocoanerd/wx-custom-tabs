@@ -1,0 +1,8 @@
+{
+  "backgroundColor": "#F5F5F5",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "custom-tabs": "/components/custom-tabs",
+    "tabs-item": "./tabs-item/tabs-item"
+  }
+}

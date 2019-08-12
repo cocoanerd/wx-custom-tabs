@@ -1,0 +1,9 @@
+/* pages/tabs/tabs.wxss */
+page {
+  background-color: #F5F5F5;
+}
+
+.swiper-container {
+  margin-top: 100rpx;
+  height: 100%;
+}

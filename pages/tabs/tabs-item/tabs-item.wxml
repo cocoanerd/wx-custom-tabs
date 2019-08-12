@@ -1,0 +1,20 @@
+<!--pages/tabs/tabs-item/tabs-item.wxml-->
+<view class="container" wx:for='{{list}}' wx:key="{{item.id}}">
+  <navigator url="contractDetail/contractDetail?id={{item.id}}" hover-class="none">
+    <view class='item-view'>
+      <!-- 左侧图片和内容 -->
+      <view class='item-left'>
+        <image src='../../../../images/合同管理列表.png'></image>
+        <view class='item-content'>
+          <text class='item-number'>{{item.contractNo}}</text>
+          <text class="item-status">{{item.rentDesc}}</text>
+        </view>
+      </view>
+      <!-- 右对齐文案内容 -->
+      <view class='item-right'>
+        <text class='item-amount'>{{item.totalGoodsValue/10000}}万</text>
+      </view>
+    </view>
+  </navigator>
+</view>
+<view class="no-more-data" wx:if="{{total <= list.length}}">暂无更多数据</view>
